@@ -1,0 +1,85 @@
+<museScore>
+  <!-- Custom Families of Instruments -->
+  <Family id="BF-percu">
+        <name>Percu BufantFort</name>
+  </Family>
+  <Family id="BF-metalls">
+        <name>Metalls BufantFort</name>
+  </Family>
+  <Family id="BF-fusta">
+        <name>Fusta BufantFort</name>
+  </Family>
+
+  <!-- Custom Instruments Groups -->
+  <InstrumentGroup id="BufantFort">
+    <name>BufantFort</name>
+
+    <!-- Custom Instruments -->
+    <Instrument id="BF-bombo">
+      <family>BF-percu</family>
+
+      <trackName>Bombo (BufantFort)</trackName>
+      <longName>Bombo</longName>
+      <shortName>B.</shortName>
+      <!--<musicXMLid>???</musicXMLid>-->
+      
+      <description>Bombo pel grup BufantFort</description>
+
+      <clef>PERC</clef>
+      <stafftype staffTypePreset="perc1Line">percussion</stafftype>
+      <barlineSpan>1</barlineSpan>
+      <drumset>1</drumset>
+      <singleNoteDynamics>0</singleNoteDynamics>
+
+      <Drum pitch="35"> <!-- Bombo -->
+            <head>normal</head>
+            <line>0</line>
+            <voice>0</voice>
+            <name>Bombo</name>
+            <stem>1</stem>
+            <shortcut>B</shortcut>
+            <panelRow>0</panelRow>
+            <panelColumn>0</panelColumn>
+      </Drum>
+      <Drum pitch="37"> <!-- Aro -->
+            <head>slashed1</head>
+            <line>0</line>
+            <voice>0</voice>
+            <name>Aro</name>
+            <stem>1</stem>
+            <shortcut>A</shortcut>
+            <panelRow>0</panelRow>
+            <panelColumn>1</panelColumn>
+      </Drum>
+
+      <Channel>
+            <!--MIDI: Bank 128, Prog 0; MS General: Standard-->
+            <controller ctrl="0" value="1"/> <!--Bank MSB-->
+            <!--<controller ctrl="32" value="0"/> --> <!-- LSB = 0 -->
+            <program value="0"/> <!--Standard Kit-->
+      </Channel>
+
+      <genre>marching</genre>
+
+    </Instrument>
+
+    <!--
+    <Instrument id="BF-caixa">
+      <family>BF-percu</family>
+      <longName>Caixa BufantFort</longName>
+      <shortName>Caixa</shortName>
+      <description>Caixa pel grup BufantFort</description>
+
+      <clef>PERC</clef>
+      <stafftype staffTypePreset="perc5Line">percussion</stafftype>
+      <singleNoteDynamics>0</singleNoteDynamics>
+
+      <Channel>
+        <program value="0"/>
+      </Channel>
+    </Instrument>
+ -->
+
+
+  </InstrumentGroup>
+</museScore>
