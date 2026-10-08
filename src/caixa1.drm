@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<museScore version="4.70">
+  <percussionPanelColumns>5</percussionPanelColumns>
+  <Drum pitch="31">
+    <head>cross</head>
+    <line>2</line>
+    <voice>0</voice>
+    <name>Stick Click (baquetes)</name>
+    <stem>1</stem>
+    <shortcut>Q</shortcut>
+    <panelRow>0</panelRow>
+    <panelColumn>4</panelColumn>
+    </Drum>
+  <Drum pitch="37">
+    <head>slashed1</head>
+    <line>3</line>
+    <voice>0</voice>
+    <name>Aro Caixa</name>
+    <stem>1</stem>
+    <shortcut>A</shortcut>
+    <panelRow>0</panelRow>
+    <panelColumn>1</panelColumn>
+    </Drum>
+  <Drum pitch="38">
+    <head>normal</head>
+    <line>3</line>
+    <voice>0</voice>
+    <name>Caixa</name>
+    <stem>1</stem>
+    <shortcut>C</shortcut>
+    <panelRow>0</panelRow>
+    <panelColumn>0</panelColumn>
+    </Drum>
+  <Drum pitch="39">
+    <head>circled</head>
+    <line>3</line>
+    <voice>0</voice>
+    <name>Cross-hit</name>
+    <stem>1</stem>
+    <panelRow>0</panelRow>
+    <panelColumn>2</panelColumn>
+    </Drum>
+  <Drum pitch="42">
+    <head>cross</head>
+    <line>-1</line>
+    <voice>0</voice>
+    <name>Hi-Hat (tancat)</name>
+    <stem>1</stem>
+    <shortcut>H</shortcut>
+    <panelRow>1</panelRow>
+    <panelColumn>0</panelColumn>
+    </Drum>
+  <Drum pitch="49">
+    <head>cross</head>
+    <line>-4</line>
+    <voice>0</voice>
+    <name>Splash 1</name>
+    <stem>1</stem>
+    <shortcut>S</shortcut>
+    <panelRow>1</panelRow>
+    <panelColumn>1</panelColumn>
+    </Drum>
+  </museScore>

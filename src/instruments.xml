@@ -31,6 +31,8 @@
       <drumset>1</drumset>
       <singleNoteDynamics>0</singleNoteDynamics>
 
+      <percussionPanelColumns>4</percussionPanelColumns>
+
       <Drum pitch="35"> <!-- Bombo -->
             <head>normal</head>
             <line>0</line>
@@ -88,13 +90,15 @@
       <drumset>1</drumset>
       <singleNoteDynamics>0</singleNoteDynamics>
 
+      <percussionPanelColumns>5</percussionPanelColumns>
+
       <Drum pitch="38"> <!-- Caixa -->
             <head>normal</head>
             <line>3</line>
             <voice>0</voice>
             <name>Caixa</name>
             <stem>1</stem>
-            <shortcut>S</shortcut>
+            <shortcut>C</shortcut>
             <panelRow>0</panelRow>
             <panelColumn>0</panelColumn>
       </Drum>
@@ -103,9 +107,19 @@
             <line>3</line>
             <voice>0</voice>
             <name>Aro Caixa</name>
+            <shortcut>A</shortcut>
             <stem>1</stem>
             <panelRow>0</panelRow>
             <panelColumn>1</panelColumn>
+      </Drum>
+            <Drum pitch="39"> <!-- Cross-hit -->
+            <head>circled</head>
+            <line>3</line>
+            <voice>0</voice>
+            <name>Cross-hit</name>
+            <stem>1</stem>
+            <panelRow>0</panelRow>
+            <panelColumn>2</panelColumn>
       </Drum>
       <Drum pitch="31"> <!-- Baquetes -->
             <head>cross</head>
@@ -115,7 +129,7 @@
             <stem>1</stem>
             <shortcut>Q</shortcut>
             <panelRow>0</panelRow>
-            <panelColumn>2</panelColumn>
+            <panelColumn>4</panelColumn>
       </Drum>
       <!-- ... --> 
 
@@ -129,23 +143,23 @@
             <panelRow>1</panelRow>
             <panelColumn>0</panelColumn>
       </Drum>
-      <Drum pitch="49"> <!-- Crash 1 -->
+      <Drum pitch="49"> <!-- Splash 1 -->
             <head>cross</head>
-            <line>-2</line>
+            <line>-4</line>
             <voice>0</voice>
-            <name>Crash 1</name>
+            <name>Splash 1</name>
             <stem>1</stem>
-            <shortcut>C</shortcut>
+            <shortcut>S</shortcut>
             <panelRow>1</panelRow>
             <panelColumn>1</panelColumn>
       </Drum>
-      <Drum pitch="57"> <!-- Crash 2 -->
+      <Drum pitch="57"> <!-- Splash 2 -->
             <head>cross</head>
-            <line>-3</line>
+            <line>-4</line>
             <voice>0</voice>
-            <name>Crash 2</name>
+            <name>Splash 2</name>
             <stem>1</stem>
-            <shortcut>V</shortcut>
+            <shortcut>D</shortcut>
             <panelRow>1</panelRow>
             <panelColumn>2</panelColumn>
       </Drum>
@@ -159,16 +173,6 @@
             <panelRow>1</panelRow>
             <panelColumn>3</panelColumn>
       </Drum>
-      <Drum pitch="55"> <!-- Splash -->
-            <head>cross</head>
-            <line>-4</line>
-            <voice>0</voice>
-            <name>Splash</name>
-            <stem>1</stem>
-            <shortcut>S</shortcut>
-            <panelRow>1</panelRow>
-            <panelColumn>4</panelColumn>
-      </Drum>
       <!-- ... --> 
 
       <Drum pitch="56"> <!-- Esquetlla -->
@@ -178,8 +182,8 @@
             <name>Esquetlla</name>
             <stem>1</stem>
             <shortcut>E</shortcut>
-            <panelRow>2</panelRow>
-            <panelColumn>0</panelColumn>
+            <panelRow>1</panelRow>
+            <panelColumn>4</panelColumn>
       </Drum>
       <!-- ... --> 
       
