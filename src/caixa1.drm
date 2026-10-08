@@ -50,11 +50,11 @@
     <panelRow>1</panelRow>
     <panelColumn>0</panelColumn>
     </Drum>
-  <Drum pitch="49">
+  <Drum pitch="57">
     <head>cross</head>
     <line>-4</line>
     <voice>0</voice>
-    <name>Splash 1</name>
+    <name>Splash 2</name>
     <stem>1</stem>
     <shortcut>S</shortcut>
     <panelRow>1</panelRow>

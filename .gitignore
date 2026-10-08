@@ -1,3 +1,5 @@
+# For mac
 .DS_Store
 
+# Generated automatically when opening .mscz files
 .mscbackup
