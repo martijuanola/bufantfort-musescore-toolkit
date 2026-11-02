@@ -1,3 +1,5 @@
+<!-- Extended from https://github.com/musescore/MuseScore/blob/main/share/instruments/instruments.xml -->
+
 <museScore>
   <!-- Custom Families of Instruments -->
   <Family id="BF-percu">
@@ -15,10 +17,44 @@
     <name>BufantFort</name>
 
     <!-- Custom Instruments -->
+    <Instrument id="BF-trompeta-bb">  <!-- WIP --> 
+      <family>BF-metalls</family>
+
+      <trackName>Trompeta en Si♭</trackName>
+      <longName>Trompeta en Si♭</longName>
+      <shortName>Tpta.</shortName>
+      <!--<traitName type="transposition">*Si♭</traitName>-->
+
+      <description>Trompeta en Si♭.</description>
+      <musicXMLid>bf.metalls.trompeta.bb</musicXMLid>
+
+      <clef>G</clef>
+      <barlineSpan>1</barlineSpan>
+      
+      <aPitchRange>52-79</aPitchRange> <!-- 80 -->
+      <pPitchRange>52-84</pPitchRange> <!-- 84 -->
+
+      <transposeDiatonic>-1</transposeDiatonic>
+      <transposeChromatic>-2</transposeChromatic>
+
+      <Channel name="open">
+        <!--MIDI: Bank 0, Prog 56; MS General: Trumpet-->
+        <program value="56"/> <!--Trumpet-->
+      </Channel>
+      <Channel name="mute">
+        <!--MIDI: Bank 0, Prog 59; MS General: Harmon Mute Trumpet-->
+        <program value="59"/> <!--Muted Trumpet-->
+      </Channel>
+      
+      <genre>marching</genre>
+
+    </Instrument>
+
+
     <Instrument id="BF-bombo">
       <family>BF-percu</family>
 
-      <trackName>Bombo (BufantFort)</trackName>
+      <trackName>Bombo</trackName>
       <longName>Bombo</longName>
       <shortName>B.</shortName>
       <!--<musicXMLid>???</musicXMLid>-->
@@ -63,6 +99,16 @@
             <panelRow>0</panelRow>
             <panelColumn>2</panelColumn>
       </Drum>
+      <Drum pitch="26"> <!-- Cantar -->
+            <head>slash</head>
+            <line>0</line>
+            <voice>0</voice>
+            <name>Veu</name>
+            <stem>1</stem>
+            <shortcut>S</shortcut>
+            <panelRow>0</panelRow>
+            <panelColumn>4</panelColumn>
+      </Drum>
 
       <Channel>
             <!--MIDI: Bank 128, Prog 0; MS General: Standard-->
@@ -77,7 +123,7 @@
     <Instrument id="BF-caixa">
       <family>BF-percu</family>
 
-      <trackName>Caixa (BufantFort)</trackName>
+      <trackName>Caixa</trackName>
       <longName>Caixa</longName>
       <shortName>C.</shortName>
       <!--<musicXMLid>???</musicXMLid>-->
@@ -186,9 +232,6 @@
             <panelColumn>4</panelColumn>
       </Drum>
       <!-- ... --> 
-      
-      
-
 
 
       <Channel>
