@@ -13,4 +13,6 @@
 ## Minor
 
  - [ ] Add custom wind BF instruments:
- 	- [ ] Add custom range 
+ 	- [ ] Add custom range
+	- [ ] Uninstall script
+	- [ ] Deal with custom instruments (option to symlink to a specific folder)
